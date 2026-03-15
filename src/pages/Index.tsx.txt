@@ -1,0 +1,29 @@
+import SiteHeader from "@/components/SiteHeader";
+import HeroSection from "@/components/HeroSection";
+import AboutLibrary from "@/components/AboutLibrary";
+import TopicsGrid from "@/components/TopicsGrid";
+import FeaturedBooks from "@/components/FeaturedBooks";
+import KnowledgeBundles from "@/components/KnowledgeBundles";
+import ReadingList from "@/components/ReadingList";
+import AboutDreamCap from "@/components/AboutDreamCap";
+import CTASection from "@/components/CTASection";
+import SiteFooter from "@/components/SiteFooter";
+
+const Index = () => (
+  <div className="min-h-screen bg-background text-foreground">
+    <SiteHeader />
+    <main>
+      <HeroSection />
+      <AboutLibrary />
+      <TopicsGrid />
+      <FeaturedBooks />
+      <KnowledgeBundles />
+      <ReadingList />
+      <AboutDreamCap />
+      <CTASection />
+    </main>
+    <SiteFooter />
+  </div>
+);
+
+export default Index;
